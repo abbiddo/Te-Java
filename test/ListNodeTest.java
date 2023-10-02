@@ -42,7 +42,7 @@ class ListNodeTest {
 
         ListNode list = new ListNode(10);
 
-        System.out.println(list.contains(list, new ListNode(10)));
-        System.out.println(list.contains(list, new ListNode(100)));
+        System.out.println(list.contains(list, new ListNode(10)));  // True
+        System.out.println(list.contains(list, new ListNode(100))); // False
     }
 }
